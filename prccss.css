@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    width:100%;
+    box-sizing:border-box;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    
+}
+
+
+body{
+    padding-top: 80px;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div h5{
+    font-size: 30px;
+}
+
+nav{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a{
+    padding: 10px;
+}
+
+nav a:hover{
+    transform: scale(1.08);
+    color: blue;
+    cursor: pointer;
+}
+
+
+/* section 1 */
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+
+.section1_div1{
+    flex:1;
+    min-width:300px;
+}
+
+
+.section1_div1 h1{
+    margin-bottom: 20px;
+}
+
+.section1_div1 p{
+    margin-bottom: 35px;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.section1_div1 button{
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding:15px 30px;
+    font-size:18px;
+}
+
+.section1_div1 button:hover{
+    transform: scale(1.08);
+    color: white;
+    cursor: pointer;
+
+}
+.section1_div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex:1;
+    min-width:300px;
+}
+
+
+.section1_div2 img{
+    border-radius: 25px;
+    width:100%;
+    max-width:450px;
+    height:auto;
+}
+
+/* section 2 */
+
+.section2{
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.section2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.service{
+    display: flex;
+    align-items: center;
+
+}
+.service_gallery{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior:smooth;
+    width: 100%;
+}
+
+.service_gallery::-webkit-scrollbar{
+    display:none;
+}
+
+.service_gallery div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink:0;
+
+}
+
+.left_scroll_button{
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.right_scroll_button{
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.service_gallery div{
+    width:200px;
+    height:250px;
+    object-fit:cover;
+    flex-shrink:0;
+    background-color: aliceblue;
+}
+
+.service_gallery div img
+{
+    width: 100%;
+    height: 80%;
+}
+
+
+/* section 3 */
+
+.section3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.section3_div{
+    padding: 50px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+    
+}
+
+.section3_div h1{
+    padding: 10px;
+}
+
+.section3_div1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 45px;
+    gap: 30px;
+}
+
+.section3_div1 div{
+    width: 130px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    object-fit: cover;
+}
+
+
+.section3_div1 div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.section3_div1 div h1{
+    font-size: 15px;
+}
+
+
+/* section 4 */
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.section4 h1{
+    padding: 25px;
+}
+.section4_div{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.section4_div div{
+    width: 250px;
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.section4_div div:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    color: white;
+}
+
+
+/* section 5 */
+
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.section5_div{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.section5_div h1{
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.section5_div div{
+    padding: 20px;
+}
+
+.section5_div div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.section5_div p{
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+.scroll_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.prev{
+    width: 45px;
+    height: 45px;
+    border-radius: 80%;
+    background-color: aliceblue;
+    border: none;
+}
+
+.next{
+    width: 45px;
+    height: 45px;
+    border-radius: 80%;
+    background-color: aliceblue;
+    border: none;
+}
+
+.prev:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.next:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+
+/*section 6*/
+
+.section6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.section6_div h1{
+    text-align: center;
+}
+
+.section6_div{
+    background-color: antiquewhite;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.section6_div form{
+    display: block;
+    gap: 30px;
+    padding: 30px;
+}
+
+
+label{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.section6_div input,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid aqua;
+    outline: none;
+    font-size: 15px;
+}
+
+.section6_div textarea{
+    height: 120px;
+    resize: none;
+}
+
+.section6_div input:focus, .section6_div textarea:focus{
+    border-color: aqua;
+    box-shadow: 0 0 5px aqua;
+}
+
+.submit_button{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: royalblue;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit_button:hover{
+    background-color: darkblue;
+}
+
+/* section 7 */
+
+.section7{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.section7 p{
+    padding: 40px;
+}
+
+/* Responsive modifications */
+
